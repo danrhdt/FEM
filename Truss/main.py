@@ -45,7 +45,7 @@ Kg=np.zeros((node_num*dof,node_num*dof))
 Fg=np.zeros((node_num*dof,1))
 
 #BoudaryCondition
-import lib.fplot as fp
+import fplot as fp
 BC=[1,2,3,4,5,6]
 fp.bcplot(BC,corX,corY)
 Fg[6]=1000
